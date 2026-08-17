@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="page-banner">
+  <div class="wrapper">
+    {%- if page.eyebrow -%}<div class="page-eyebrow">{{ page.eyebrow }}</div>{%- endif -%}
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+    {%- if page.subtitle -%}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+    {%- endif -%}
+  </div>
+</div>
+
+<article class="post">
+  <div class="wrapper">
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+</article>

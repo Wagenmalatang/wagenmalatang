@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="wrapper">
+    {%- if page.eyebrow -%}<span class="hero-eyebrow">{{ page.eyebrow }}</span>{%- endif -%}
+    {%- if page.slogan_jp -%}
+    <p class="hero-slogan">
+      {{ page.slogan_jp }}
+      {%- if page.slogan_en -%}<span class="hero-slogan-en">{{ page.slogan_en }}</span>{%- endif -%}
+    </p>
+    {%- endif -%}
+    <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+    {%- if page.hero_subtitle -%}
+      <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+    {%- endif -%}
+    {%- if page.hero_actions -%}
+    <div class="hero-actions">
+      {%- for action in page.hero_actions -%}
+        <a class="btn {{ action.style | default: 'btn-primary' }}" href="{{ action.url | relative_url }}">{{ action.label }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </div>
+
+  <svg class="hero-wave" viewBox="0 0 1440 50" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,25 C60,13 120,13 180,25 C240,37 300,37 360,25 C420,13 480,13 540,25 C600,37 660,37 720,25 C780,13 840,13 900,25 C960,37 1020,37 1080,25 C1140,13 1200,13 1260,25 C1320,37 1380,37 1440,25 L1440,50 L0,50 Z"></path>
+  </svg>
+</div>
+
+<div class="wrapper">
+  <div class="home">
+    {{ content }}
+  </div>
+</div>
