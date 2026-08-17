@@ -1,0 +1,29 @@
+title: Wagen Malatang
+description: >-
+  Wagen Malatang is a modern malatang restaurant brand, serving fresh,
+  customizable hot pot street food.
+baseurl: ""
+url: ""
+
+theme: minima
+minima:
+  skin: auto
+
+header_pages:
+  - menu.md
+  - our-stores.md
+  - join-us.md
+  - franchise.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
