@@ -3,8 +3,8 @@ email: wagenmalatang@gmail.com
 description: >-
   A Japanese-inspired malatang experience — full-bodied broth, freely chosen
   ingredients, and a bowl made with care in every store.
-baseurl: "/wagenmalatang"
-url: "https://wagenmalatang.github.io"
+baseurl: ""
+url: "https://wagenmalatang.com"
 
 theme: minima
 minima:
