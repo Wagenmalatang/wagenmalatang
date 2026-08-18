@@ -114,24 +114,14 @@ h1, h2, h3, h4 {
   flex-shrink: 0;
 }
 
-.brand-word {
-  display: inline-flex;
-  align-items: baseline;
-  font-family: "Baloo 2", $heading-font-family;
-  font-weight: 800;
-  font-size: 1.9rem;
-  line-height: 1;
-  color: $wm-washi;
-  letter-spacing: 0.01em;
-  text-decoration: none;
+.brand-word-img {
+  display: block;
+  height: 26px;
+  width: auto;
 }
 
-.brand-word-cap {
-  font-size: 0.82em;
-}
-
-.footer-heading .brand-word {
-  font-size: 2rem;
+.footer-heading .brand-word-img {
+  height: 32px;
 }
 
 .site-nav .page-link {
