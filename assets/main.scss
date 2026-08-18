@@ -136,8 +136,9 @@ h1, h2, h3, h4 {
 
 .site-nav .page-link {
   color: rgba(255, 255, 255, 0.78) !important;
+  font-family: "Yuji Syuku", $heading-font-family;
   font-weight: 500;
-  font-size: 0.92rem;
+  font-size: 0.98rem;
   margin-left: 26px;
   letter-spacing: 0.02em;
   transition: color 0.15s ease;
