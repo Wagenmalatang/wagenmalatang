@@ -110,6 +110,19 @@ h1, h2, h3, h4 {
   flex-shrink: 0;
 }
 
+.brand-word {
+  font-family: "Fredoka", $heading-font-family;
+  font-weight: 700;
+  font-size: 1.15em;
+  line-height: 1;
+  color: $wm-washi;
+  letter-spacing: 0.01em;
+}
+
+.footer-heading .brand-word {
+  font-size: 1.3rem;
+}
+
 .site-nav .page-link {
   color: rgba(255, 255, 255, 0.78) !important;
   font-weight: 500;
