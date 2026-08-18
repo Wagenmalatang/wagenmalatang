@@ -82,46 +82,32 @@ h1, h2, h3, h4 {
   z-index: 100;
 }
 
-.site-title,
-.site-title:visited {
-  color: $wm-white !important;
-  font-family: $heading-font-family;
-  font-weight: 700;
-  font-size: 1.3rem;
+.site-header .wrapper {
   display: flex;
   align-items: center;
-  gap: 0.6em;
-  letter-spacing: 0.02em;
+  justify-content: space-between;
+}
+
+.site-title,
+.site-title:visited {
+  float: none;
+  color: $wm-white !important;
+  display: flex;
+  align-items: center;
 }
 
 .site-title:hover {
   text-decoration: none !important;
 }
 
-.brand-seal {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: $wm-crimson;
-  color: $wm-white;
-  font-family: $heading-font-family;
-  font-size: 1.15rem;
-  line-height: 1;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
-  flex-shrink: 0;
-}
-
 .brand-word-img {
   display: block;
-  height: 26px;
+  height: 20px;
   width: auto;
 }
 
 .footer-heading .brand-word-img {
-  height: 32px;
+  height: 26px;
 }
 
 .site-nav .page-link {
