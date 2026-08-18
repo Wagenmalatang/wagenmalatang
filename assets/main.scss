@@ -245,7 +245,9 @@ h1, h2, h3, h4 {
 
 @media screen and (max-width: 700px) {
   .hero-mascot {
-    display: none;
+    right: 12px;
+    bottom: 44px;
+    height: clamp(80px, 26vw, 130px);
   }
 }
 
@@ -389,7 +391,9 @@ h1, h2, h3, h4 {
 
 @media screen and (max-width: 700px) {
   .page-banner-mascot {
-    display: none;
+    right: 8px;
+    bottom: -6px;
+    height: clamp(70px, 24vw, 110px);
   }
 }
 
