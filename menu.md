@@ -45,6 +45,6 @@ subtitle: >-
 
 <div class="callout">
   <h2>Ready to build your bowl?</h2>
-  <p>Visit any of our stores to try Wagen Malatang today.</p>
+  <p>Visit any of our stores to try WaGen Malatang today.</p>
   <a class="btn btn-primary" href="/our-stores/">Find a Store</a>
 </div>

@@ -4,7 +4,7 @@ title: Join Us
 permalink: /join-us/
 eyebrow: Careers
 subtitle: >-
-  Wagen Malatang is growing, and we're always looking for friendly,
+  WaGen Malatang is growing, and we're always looking for friendly,
   hard-working people to join our team.
 ---
 

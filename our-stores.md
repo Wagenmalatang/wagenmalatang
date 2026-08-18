@@ -3,7 +3,7 @@ layout: page
 title: Our Stores
 permalink: /our-stores/
 eyebrow: Find Us
-subtitle: Find a Wagen Malatang location near you.
+subtitle: Find a WaGen Malatang location near you.
 ---
 
 <div class="store-block">

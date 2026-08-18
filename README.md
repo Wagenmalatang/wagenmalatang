@@ -1,6 +1,6 @@
-# Wagen Malatang
+# WaGen Malatang
 
-Company website for Wagen Malatang, built with Jekyll and deployed via
+Company website for WaGen Malatang, built with Jekyll and deployed via
 GitHub Pages.
 
 ## Pages

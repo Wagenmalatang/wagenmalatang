@@ -4,7 +4,7 @@ title: Franchise
 permalink: /franchise/
 eyebrow: Partner With Us
 subtitle: >-
-  Bring Wagen Malatang to your city. We partner with motivated entrepreneurs
+  Bring WaGen Malatang to your city. We partner with motivated entrepreneurs
   to open new locations and share in our growth.
 ---
 
@@ -26,7 +26,7 @@ subtitle: >-
     <span class="partner-num">01</span>
     <div class="partner-body">
       <h3>Believes in the Brand</h3>
-      <p>Committed to running Wagen Malatang for the long term, not treating it as a short-term traffic play.</p>
+      <p>Committed to running WaGen Malatang for the long term, not treating it as a short-term traffic play.</p>
     </div>
   </div>
   <div class="partner-item">

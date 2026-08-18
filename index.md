@@ -6,7 +6,7 @@ eyebrow: Authentic · Varied · Hygienic · Efficient
 slogan_jp: 自分好みでヘルシーに。私だけの、至高の一杯
 hero_title: A Comforting Bowl You'll Crave Every Day
 hero_subtitle: >-
-  Wagen Malatang combines a wide choice of fresh ingredients, a consistently
+  WaGen Malatang combines a wide choice of fresh ingredients, a consistently
   rich and layered broth, clean and efficient stores, and warm, personal
   service — so you can quickly enjoy a meal that's warm and satisfying.
 hero_actions:
@@ -69,6 +69,6 @@ hero_actions:
 
 <div class="callout">
   <h2>Hungry for more?</h2>
-  <p>Explore the full menu or find the Wagen Malatang store nearest you.</p>
+  <p>Explore the full menu or find the WaGen Malatang store nearest you.</p>
   <a class="btn btn-primary" href="/menu/">Explore the Menu</a>
 </div>
