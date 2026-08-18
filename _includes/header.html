@@ -4,6 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      <img class="nav-seal" src="{{ "/assets/img/seal-stamp.png" | relative_url }}" alt="" aria-hidden="true">
       <img class="brand-word-img" src="{{ "/assets/img/wagen-logo-cream.png" | relative_url }}" alt="waGen">
     </a>
 

@@ -94,10 +94,17 @@ h1, h2, h3, h4 {
   color: $wm-white !important;
   display: flex;
   align-items: center;
+  gap: 0.5em;
 }
 
 .site-title:hover {
   text-decoration: none !important;
+}
+
+.nav-seal {
+  display: block;
+  height: 40px;
+  width: auto;
 }
 
 .brand-word-img {
