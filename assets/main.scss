@@ -6,16 +6,16 @@
 // Built on minima's base structure, heavily restyled.
 // ---------------------------------------------------------------------------
 
-// Palette — indigo (ai-iro), hanko crimson, washi cream, sumi ink
-$wm-indigo:        #1D2B4F;
-$wm-indigo-dark:   #12192F;
-$wm-crimson:       #B7282E;
-$wm-crimson-dark:  #8C1E22;
-$wm-gold:          #C9A227;
-$wm-washi:         #F7F2E7;
-$wm-washi-2:       #EFE6D3;
-$wm-ink:           #221F1B;
-$wm-muted:         #746B5E;
+// Palette — brand green, brand orange, ink black, warm cream
+$wm-indigo:        #000000;
+$wm-indigo-dark:   #0D0D0D;
+$wm-crimson:       #FE9E5A;
+$wm-crimson-dark:  darken(#FE9E5A, 14%);
+$wm-gold:          #4DB56E;
+$wm-washi:         #F7ECDC;
+$wm-washi-2:       darken(#F7ECDC, 4%);
+$wm-ink:           #000000;
+$wm-muted:         mix(#000000, #F7ECDC, 58%);
 $wm-white:         #FFFFFF;
 
 // Minima variable overrides (must be set before @import "minima")
