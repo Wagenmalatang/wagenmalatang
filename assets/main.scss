@@ -116,7 +116,7 @@ h1, h2, h3, h4 {
 
 .brand-word {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   font-family: "Baloo 2", $heading-font-family;
   font-weight: 800;
   font-size: 1.9rem;
@@ -124,6 +124,10 @@ h1, h2, h3, h4 {
   color: $wm-washi;
   letter-spacing: 0.01em;
   text-decoration: none;
+}
+
+.brand-word-cap {
+  font-size: 0.82em;
 }
 
 .footer-heading .brand-word {
