@@ -1028,6 +1028,18 @@ h2.section-title[style] {
   color: $wm-gold;
 }
 
+.site-footer .contact-list {
+  color: $wm-ink;
+}
+
+.site-footer .contact-list a {
+  color: $wm-ink;
+}
+
+.site-footer .contact-list a:hover {
+  color: $wm-crimson;
+}
+
 .footer-col-wrapper {
   display: flex;
   justify-content: center;
