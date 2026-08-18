@@ -790,8 +790,20 @@ h2.section-title[style] {
   grid-template-columns: minmax(260px, 480px);
 }
 
+.store-block {
+  margin-bottom: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(34, 31, 27, 0.12);
+}
+
+.store-block:last-of-type {
+  margin-bottom: 8px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 .store-map {
-  margin: 8px 0 36px;
+  margin: 8px 0 0;
   border: 1px solid rgba(34, 31, 27, 0.1);
   border-top: 3px solid $wm-crimson;
   overflow: hidden;
