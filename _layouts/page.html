@@ -10,6 +10,9 @@ layout: default
       <p class="page-subtitle">{{ page.subtitle }}</p>
     {%- endif -%}
   </div>
+  {%- if page.banner_mascot -%}
+  <img src="{{ page.banner_mascot | relative_url }}" alt="" class="page-banner-mascot" aria-hidden="true">
+  {%- endif -%}
 </div>
 
 <article class="post">

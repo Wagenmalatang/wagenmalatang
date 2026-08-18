@@ -225,6 +225,22 @@ h1, h2, h3, h4 {
   }
 }
 
+.hero-mascot {
+  position: absolute;
+  right: clamp(8px, 4vw, 64px);
+  bottom: 34px;
+  height: clamp(120px, 22vw, 220px);
+  width: auto;
+  z-index: 2;
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.18));
+}
+
+@media screen and (max-width: 700px) {
+  .hero-mascot {
+    display: none;
+  }
+}
+
 .hero-eyebrow {
   display: inline-block;
   color: $wm-gold;
@@ -353,6 +369,22 @@ h1, h2, h3, h4 {
   line-height: 1.75;
 }
 
+.page-banner-mascot {
+  position: absolute;
+  right: clamp(-10px, 2vw, 40px);
+  bottom: -18px;
+  height: clamp(130px, 20vw, 190px);
+  width: auto;
+  z-index: 1;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.18));
+}
+
+@media screen and (max-width: 700px) {
+  .page-banner-mascot {
+    display: none;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Section / content containers
 // ---------------------------------------------------------------------------
@@ -460,6 +492,13 @@ h2.section-title[style] {
   grid-template-columns: 280px 1fr;
   gap: 64px;
   align-items: start;
+}
+
+.promise-seal {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin-bottom: 18px;
 }
 
 .pillars-seal-label {

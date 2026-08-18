@@ -6,6 +6,7 @@ eyebrow: What We Serve
 subtitle: >-
   Build your own malatang bowl by choosing from our fresh ingredients,
   proteins, and sauces.
+banner_mascot: /assets/img/mascot/mascot-eating.png
 ---
 
 <h2 class="section-title" style="text-align:left;">Soup Bases</h2>

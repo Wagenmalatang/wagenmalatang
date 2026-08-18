@@ -6,6 +6,7 @@ eyebrow: Careers
 subtitle: >-
   WaGen Malatang is growing, and we're always looking for friendly,
   hard-working people to join our team.
+banner_mascot: /assets/img/mascot/mascot-run.png
 ---
 
 <h2 class="section-title" style="text-align:left;">Open Positions</h2>

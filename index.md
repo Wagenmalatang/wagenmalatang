@@ -21,6 +21,7 @@ hero_actions:
 <div class="section pillars-section">
   <div class="pillars-layout">
     <div class="pillars-intro">
+      <img src="{{ "/assets/img/seal-stamp.png" | relative_url }}" alt="" class="promise-seal" aria-hidden="true">
       <span class="pillars-seal-label">Our Promise</span>
       <h2 class="pillars-title">Four Pillars We Never Compromise On</h2>
     </div>
