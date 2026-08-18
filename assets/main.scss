@@ -90,37 +90,44 @@ h1, h2, h3, h4 {
   font-size: 1.3rem;
   display: flex;
   align-items: center;
-  gap: 0.55em;
+  gap: 0.6em;
   letter-spacing: 0.02em;
+}
+
+.site-title:hover {
+  text-decoration: none !important;
 }
 
 .brand-seal {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: $wm-crimson;
   color: $wm-white;
   font-family: $heading-font-family;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   line-height: 1;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
   flex-shrink: 0;
 }
 
 .brand-word {
+  display: inline-flex;
+  align-items: center;
   font-family: "Fredoka", $heading-font-family;
   font-weight: 700;
-  font-size: 1.15em;
+  font-size: 1.9rem;
   line-height: 1;
   color: $wm-washi;
   letter-spacing: 0.01em;
+  text-decoration: none;
 }
 
 .footer-heading .brand-word {
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .site-nav .page-link {
