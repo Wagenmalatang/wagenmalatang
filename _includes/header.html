@@ -2,8 +2,14 @@
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    {%- if page.lang == "ja" -%}
+      {%- assign page_paths = site.header_pages_ja | default: default_paths -%}
+      {%- assign home_url = "/ja/" -%}
+    {%- else -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      {%- assign home_url = "/" -%}
+    {%- endif -%}
+    <a class="site-title" rel="author" href="{{ home_url | relative_url }}">
       <img class="nav-seal" src="{{ "/assets/img/seal-stamp.png" | relative_url }}" alt="" aria-hidden="true">
       <img class="brand-word-img" src="{{ "/assets/img/wagen-logo-cream.png" | relative_url }}" alt="waGen">
     </a>
@@ -26,6 +32,17 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <span class="lang-switch">
+            {%- if page.lang == "ja" -%}
+              <a class="lang-link" href="{{ page.lang_switch_url | default: "/" | relative_url }}">EN</a>
+              <span class="lang-sep">/</span>
+              <span class="lang-current">日本語</span>
+            {%- else -%}
+              <span class="lang-current">EN</span>
+              <span class="lang-sep">/</span>
+              <a class="lang-link" href="{{ page.lang_switch_url | default: "/ja/" | relative_url }}">日本語</a>
+            {%- endif -%}
+          </span>
         </div>
       </nav>
     {%- endif -%}

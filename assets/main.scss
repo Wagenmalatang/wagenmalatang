@@ -132,6 +132,34 @@ h1, h2, h3, h4 {
   color: $wm-gold !important;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 26px;
+  font-family: "Yuji Syuku", $heading-font-family;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.lang-switch .lang-current {
+  color: $wm-gold;
+  font-weight: 700;
+}
+
+.lang-switch .lang-sep {
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 0.4em;
+}
+
+.lang-switch .lang-link {
+  color: rgba(255, 255, 255, 0.78) !important;
+  transition: color 0.15s ease;
+}
+
+.lang-switch .lang-link:hover {
+  color: $wm-gold !important;
+}
+
 .site-nav label[for="nav-trigger"] {
   color: $wm-white;
 }
@@ -148,6 +176,11 @@ h1, h2, h3, h4 {
   .site-nav .page-link {
     color: rgba(255, 255, 255, 0.78) !important;
     display: block;
+  }
+  .lang-switch {
+    margin-left: 0;
+    margin-top: 14px;
+    display: flex;
   }
 }
 

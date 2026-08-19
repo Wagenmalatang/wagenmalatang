@@ -2,6 +2,8 @@
 layout: home
 title: Home
 permalink: /
+lang: en
+lang_switch_url: /ja/
 eyebrow: Authentic · Varied · Hygienic · Efficient
 slogan_jp: 自分好みでヘルシーに。私だけの、至高の一杯
 hero_title: A Comforting Bowl You'll Crave Every Day

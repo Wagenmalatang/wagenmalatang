@@ -16,6 +16,12 @@ header_pages:
   - join-us.md
   - franchise.md
 
+header_pages_ja:
+  - ja/menu.md
+  - ja/our-stores.md
+  - ja/join-us.md
+  - ja/franchise.md
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -2,6 +2,8 @@
 layout: page
 title: Join Us
 permalink: /join-us/
+lang: en
+lang_switch_url: /ja/join-us/
 eyebrow: Careers
 subtitle: >-
   WaGen Malatang is growing, and we're always looking for friendly,

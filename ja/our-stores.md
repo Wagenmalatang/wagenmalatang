@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Our Stores
-permalink: /our-stores/
-lang: en
-lang_switch_url: /ja/our-stores/
-eyebrow: Find Us
-subtitle: Find a WaGen Malatang location near you.
+title: 店舗案内
+permalink: /ja/our-stores/
+lang: ja
+lang_switch_url: /our-stores/
+eyebrow: 店舗情報
+subtitle: お近くのWaGenマラータン店舗をお探しください。
 ---
 
 <div class="store-block">
   <div class="store-grid store-grid-single">
     <div class="store-card">
-      <h3>🇯🇵 Osaka — Kawaramachi</h3>
-      <p class="store-meta"><span class="label">Address:</span> 〒542-0066 3-chōme-8-8 Kawaramachi, Chuo Ward, Osaka (原清)</p>
-      <p class="store-meta"><span class="label">Hours:</span> 10:00 AM – 9:00 PM</p>
+      <h3>🇯🇵 大阪 — 瓦町</h3>
+      <p class="store-meta"><span class="label">住所:</span> 〒542-0066 大阪府大阪市中央区瓦町3-8-8（原清）</p>
+      <p class="store-meta"><span class="label">営業時間:</span> 10:00 – 21:00</p>
     </div>
   </div>
 
@@ -33,9 +33,9 @@ subtitle: Find a WaGen Malatang location near you.
 <div class="store-block">
   <div class="store-grid store-grid-single">
     <div class="store-card">
-      <h3>🇯🇵 Osaka — Jusomotoimazato</h3>
-      <p class="store-meta"><span class="label">Address:</span> 〒532-0028 2-chōme Jusomotoimazato, Yodogawa Ward, Osaka</p>
-      <p class="store-meta"><span class="label">Hours:</span> 10:00 AM – 9:00 PM</p>
+      <h3>🇯🇵 大阪 — Jusomotoimazato</h3>
+      <p class="store-meta"><span class="label">住所:</span> 〒532-0028 大阪府大阪市淀川区Jusomotoimazato 2丁目</p>
+      <p class="store-meta"><span class="label">営業時間:</span> 10:00 – 21:00</p>
     </div>
   </div>
 
@@ -53,7 +53,7 @@ subtitle: Find a WaGen Malatang location near you.
 </div>
 
 <div class="callout">
-  <h2>Can't find a store near you?</h2>
-  <p>We're always looking to grow into new neighborhoods.</p>
-  <a class="btn btn-primary" href="/franchise/">Ask About Franchising</a>
+  <h2>お近くに店舗が見つかりませんか？</h2>
+  <p>私たちは常に新しいエリアへの出店を目指しています。</p>
+  <a class="btn btn-primary" href="/ja/franchise/">加盟についてのお問い合わせ</a>
 </div>

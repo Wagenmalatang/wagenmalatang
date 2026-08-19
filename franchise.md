@@ -2,6 +2,8 @@
 layout: page
 title: Franchise
 permalink: /franchise/
+lang: en
+lang_switch_url: /ja/franchise/
 eyebrow: Partner With Us
 subtitle: >-
   Bring WaGen Malatang to your city. We partner with motivated entrepreneurs

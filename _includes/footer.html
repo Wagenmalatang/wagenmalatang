@@ -7,9 +7,13 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <span class="footer-col-label">Visit</span>
+        <span class="footer-col-label">{%- if page.lang == "ja" -%}ご来店{%- else -%}Visit{%- endif -%}</span>
         <ul class="contact-list">
+          {%- if page.lang == "ja" -%}
+          <li>〒558-0011<br>大阪府大阪市住吉区苅田5丁目9-3</li>
+          {%- else -%}
           <li>〒558-0011<br>5-chōme-9-3 Karita<br>Sumiyoshi Ward, Osaka, Japan</li>
+          {%- endif -%}
           <li><a href="tel:+81667778283">06-7777-8283</a></li>
           {%- if site.email -%}
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
