@@ -4,12 +4,12 @@ title: ホーム
 permalink: /ja/
 lang: ja
 lang_switch_url: /
-eyebrow: 本格・多彩・清潔・迅速
-slogan_jp: 自分好みでヘルシーに。私だけの、至高の一杯
-hero_title: 毎日食べたくなる、あったかい一杯
+eyebrow: 本格・多彩・安心・スピーディー
+slogan_jp: 自分好みに、ヘルシーに。私だけの至高の一杯。
+hero_title: 毎日食べたくなる、あったかい一杯。
 hero_subtitle: >-
-  WaGenマラータンは、豊富な食材と深みのある一貫したスープ、清潔で効率的な店舗、そして温かみのある接客を通じて、
-  心もお腹も満たされる一杯を素早くお届けします。
+  WaGenマーラータンは、豊富な具材と深みのある特製スープ、清潔で快適な空間、そして温か
+  なおもてなしで、心もお腹も満たされる一杯をスピーディーにご提供します。
 hero_actions:
   - label: メニューを見る
     url: /ja/menu/
@@ -70,6 +70,6 @@ hero_actions:
 
 <div class="callout">
   <h2>もっと知りたい方へ</h2>
-  <p>メニュー全体をチェックするか、最寄りのWaGenマラータン店舗を探してみてください。</p>
+  <p>メニュー全体をチェックするか、最寄りのWaGenマーラータン店舗を探してみてください。</p>
   <a class="btn btn-primary" href="/ja/menu/">メニューを見る</a>
 </div>

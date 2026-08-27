@@ -6,7 +6,7 @@ lang: ja
 lang_switch_url: /menu/
 eyebrow: 提供メニュー
 subtitle: >-
-  新鮮な食材とお好みの具材、ソースから、自分だけのマラータンを作りましょう。
+  新鮮な食材とお好みの具材、ソースから、自分だけのマーラータンを作りましょう。
 banner_mascot: /assets/img/mascot/mascot-eating.png
 ---
 
@@ -47,6 +47,6 @@ banner_mascot: /assets/img/mascot/mascot-eating.png
 
 <div class="callout">
   <h2>あなただけの一杯を作りませんか？</h2>
-  <p>今すぐ店舗へ足を運んで、WaGenマラータンをお試しください。</p>
+  <p>今すぐ店舗へ足を運んで、WaGenマーラータンをお試しください。</p>
   <a class="btn btn-primary" href="/ja/our-stores/">店舗を探す</a>
 </div>

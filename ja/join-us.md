@@ -6,7 +6,7 @@ lang: ja
 lang_switch_url: /join-us/
 eyebrow: 採用
 subtitle: >-
-  WaGenマラータンは成長中です。フレンドリーで働き者の仲間を随時募集しています。
+  WaGenマーラータンは成長中です。フレンドリーで働き者の仲間を随時募集しています。
 banner_mascot: /assets/img/mascot/mascot-run.png
 ---
 

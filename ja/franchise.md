@@ -6,7 +6,7 @@ lang: ja
 lang_switch_url: /franchise/
 eyebrow: パートナー募集
 subtitle: >-
-  WaGenマラータンをあなたの街へ。意欲ある起業家の皆様と共に、新店舗を展開していきます。
+  WaGenマーラータンをあなたの街へ。意欲ある起業家の皆様と共に、新店舗を展開していきます。
 ---
 
 <blockquote class="pull-quote">
@@ -25,7 +25,7 @@ subtitle: >-
     <span class="partner-num">01</span>
     <div class="partner-body">
       <h3>ブランドへの共感</h3>
-      <p>短期的な集客目的ではなく、WaGenマラータンを長期的に経営する意志があること。</p>
+      <p>短期的な集客目的ではなく、WaGenマーラータンを長期的に経営する意志があること。</p>
     </div>
   </div>
   <div class="partner-item">

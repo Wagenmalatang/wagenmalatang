@@ -5,7 +5,7 @@ permalink: /ja/our-stores/
 lang: ja
 lang_switch_url: /our-stores/
 eyebrow: 店舗情報
-subtitle: お近くのWaGenマラータン店舗をお探しください。
+subtitle: お近くのWaGenマーラータン店舗をお探しください。
 ---
 
 <div class="store-block">
