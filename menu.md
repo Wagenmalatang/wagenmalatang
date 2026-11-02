@@ -4,50 +4,16 @@ title: Menu
 permalink: /menu/
 lang: en
 lang_switch_url: /ja/menu/
+menu_page: true
 eyebrow: What We Serve
 subtitle: >-
-  Build your own malatang bowl by choosing from our fresh ingredients,
-  proteins, and sauces.
-banner_mascot: /assets/img/mascot/mascot-eating.png
+  Build your own bowl with fresh ingredients and your favorite broth.
 ---
 
-<h2 class="section-title" style="text-align:left;">Soup Bases</h2>
+{% include menu-posters.html %}
 
-<div class="soup-grid">
-  <div class="soup-card">
-    <div class="soup-photo" style="background-image:url('{{ "/assets/img/menu/vegan-tomato-soup.png" | relative_url }}');"></div>
-    <div class="soup-name">
-      <span class="en">Vegan Tomato Soup</span>
-    </div>
-  </div>
-  <div class="soup-card">
-    <div class="soup-photo" style="background-image:url('{{ "/assets/img/menu/signature-malatang-soup.png" | relative_url }}');"></div>
-    <div class="soup-name">
-      <span class="en">Signature Malatang Soup</span>
-    </div>
-  </div>
-  <div class="soup-card">
-    <div class="soup-photo" style="background-image:url('{{ "/assets/img/menu/sichuan-spicy-dry-pot.png" | relative_url }}');"></div>
-    <div class="soup-name">
-      <span class="en">Sichuan Spicy Dry Pot</span>
-    </div>
-  </div>
-  <div class="soup-card">
-    <div class="soup-photo" style="background-image:url('{{ "/assets/img/menu/pork-bone-soup.png" | relative_url }}');"></div>
-    <div class="soup-name">
-      <span class="en">Pork Bone Soup</span>
-    </div>
-  </div>
-  <div class="soup-card">
-    <div class="soup-photo" style="background-image:url('{{ "/assets/img/menu/golden-pickled-soup.png" | relative_url }}');"></div>
-    <div class="soup-name">
-      <span class="en">Golden Pickled Soup</span>
-    </div>
-  </div>
-</div>
-
-<div class="callout">
+<div class="callout menu-callout">
   <h2>Ready to build your bowl?</h2>
   <p>Visit any of our stores to try WaGen Malatang today.</p>
-  <a class="btn btn-primary" href="/our-stores/">Find a Store</a>
+  <a class="btn btn-primary" href="{{ '/our-stores/' | relative_url }}">Find a Store</a>
 </div>

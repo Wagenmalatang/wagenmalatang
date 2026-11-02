@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content{% if page.menu_page %} menu-content{% endif %}" aria-label="{% if page.menu_page and page.lang == 'ja' %}コンテンツ{% else %}Content{% endif %}">
+      {% if page.menu_page %}
+        {{ content }}
+      {% else %}
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      {% endif %}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

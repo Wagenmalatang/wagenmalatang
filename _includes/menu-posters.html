@@ -1,0 +1,95 @@
+{%- if page.lang == 'ja' -%}
+  {%- assign menu_heading = 'メニュー' -%}
+  {%- assign order_heading = 'ご注文方法' -%}
+  {%- assign menu_alt = '和元マーラータンのメニュー' -%}
+  {%- assign order_alt = '和元マーラータンのご注文ガイド' -%}
+  {%- assign full_size_label = '画像を拡大して見る' -%}
+  {%- assign new_tab_label = '新しいタブで開きます' -%}
+  {%- assign menu_asset = '/assets/img/menu/menu.svg' -%}
+  {%- assign order_asset = '/assets/img/menu/how-to-order.svg' -%}
+{%- else -%}
+  {%- assign menu_heading = 'Our Menu' -%}
+  {%- assign order_heading = 'How to Order' -%}
+  {%- assign menu_alt = 'WaGen Malatang menu' -%}
+  {%- assign order_alt = 'WaGen Malatang ordering guide' -%}
+  {%- assign full_size_label = 'View full-size image' -%}
+  {%- assign new_tab_label = 'opens in a new tab' -%}
+  {%- assign menu_asset = '/assets/img/menu/menu-en.svg' -%}
+  {%- assign order_asset = '/assets/img/menu/how-to-order-en.svg' -%}
+{%- endif -%}
+<div class="menu-posters">
+  <section class="menu-poster" aria-labelledby="menu-poster-title">
+    <h2 id="menu-poster-title" class="section-title">{{ menu_heading }}</h2>
+    <a class="menu-poster-image" href="{{ menu_asset | relative_url }}" target="_blank" rel="noopener" aria-label="{{ menu_alt }} ({{ new_tab_label }})">
+      <img src="{{ menu_asset | relative_url }}" alt="{{ menu_alt }}" width="341" height="511" decoding="async">
+    </a>
+    <p class="menu-poster-link"><a href="{{ menu_asset | relative_url }}" target="_blank" rel="noopener">{{ full_size_label }}<span class="menu-sr-only"> ({{ new_tab_label }})</span></a></p>
+    <div class="menu-sr-only">
+      {% if page.lang == 'ja' %}
+      <h3>スープと汁なしメニュー</h3>
+      <ul>
+        <li>黄金サンツァイスープ</li>
+        <li>さっぱり汁なしマーラータン</li>
+        <li>本格四川マーラータン</li>
+        <li>美活トマトスープ</li>
+        <li>薬膳香るやさしいスープ</li>
+      </ul>
+      <h3>辛さの選択</h3>
+      <ol>
+        <li>小辛：初めての方はここから。</li>
+        <li>中辛：辛いは旨い！おすすめ中辛。</li>
+        <li>大辛：やみつきの辛さ3倍。</li>
+        <li>激辛：思わず口から火がふきます。</li>
+        <li>極辛：一度はチャレンジしたい極辛。</li>
+      </ol>
+      {% else %}
+      <h3>Soups and dry mix</h3>
+      <ul>
+        <li>Golden Pickled Cabbage Soup</li>
+        <li>Refreshing Dry Malatang</li>
+        <li>Authentic Sichuan Malatang</li>
+        <li>Tomato Soup</li>
+        <li>Mild Herbal Soup</li>
+      </ul>
+      <h3>Choose your spice</h3>
+      <ol>
+        <li>Mild: a gentle start.</li>
+        <li>Medium: our recommended kick.</li>
+        <li>Hot: three times the heat.</li>
+        <li>Extra Hot: a fiery challenge.</li>
+        <li>Extreme: for serious spice lovers.</li>
+      </ol>
+      {% endif %}
+    </div>
+  </section>
+  <section class="menu-poster" aria-labelledby="order-poster-title">
+    <h2 id="order-poster-title" class="section-title">{{ order_heading }}</h2>
+    <a class="menu-poster-image" href="{{ order_asset | relative_url }}" target="_blank" rel="noopener" aria-label="{{ order_alt }} ({{ new_tab_label }})">
+      <img src="{{ order_asset | relative_url }}" alt="{{ order_alt }}" width="370" height="511" loading="lazy" decoding="async">
+    </a>
+    <p class="menu-poster-link"><a href="{{ order_asset | relative_url }}" target="_blank" rel="noopener">{{ full_size_label }}<span class="menu-sr-only"> ({{ new_tab_label }})</span></a></p>
+    <div class="menu-sr-only">
+      {% if page.lang == 'ja' %}
+      <ol>
+        <li>ボウルとトングを持つ。入口すぐの棚からお取りください。</li>
+        <li>食べたい具材を選ぶ。最低300gで、それ以下でも同料金になります。衛生管理上、一度取り出した食材は棚に戻さないでください。</li>
+        <li>スープの種類を選ぶ。本格四川マーラータン、薬膳香るやさしいスープ、黄金サンツァイスープ、美活トマトスープ、さっぱり汁なしマーラータンの5種類からお選びください。</li>
+        <li>お支払い。現金、クレジット、電子マネー、各種QR決済に対応。お支払い完了後、呼び出しベルをお渡しします。</li>
+        <li>調理の完成を待つ。お席でゆっくりお待ちください。調味料と冷水はセルフサービスです。</li>
+        <li>ベルがなったら受け取り。カウンターで出来立てのマーラータンをお受け取りください。</li>
+        <li>あたたかいうちにお召し上がりください。食後は食器返却口へお願いします。</li>
+      </ol>
+      {% else %}
+      <ol>
+        <li>Grab a bowl and tongs. Find them on the shelf by the entrance.</li>
+        <li>Pick your favorite ingredients. The minimum charge is for 300 g, even if your bowl weighs less. For hygiene, please do not return ingredients to the shelf once selected.</li>
+        <li>Choose your soup or dry mix: Authentic Sichuan Malatang, Mild Herbal Soup, Golden Pickled Cabbage Soup, Tomato Soup, or Refreshing Dry Malatang.</li>
+        <li>Pay at the counter. Cash, credit cards, e-money and QR payments are accepted. Collect your pager after payment.</li>
+        <li>Relax while we cook. Take a seat while we prepare your bowl. Sauces and chilled water are self-service; help yourself to your favorites.</li>
+        <li>Collect your bowl when paged. Bring your pager to the counter and collect your freshly cooked malatang.</li>
+        <li>Enjoy while it is hot! Malatang tastes best freshly made. Please return your dishes after your meal.</li>
+      </ol>
+      {% endif %}
+    </div>
+  </section>
+</div>

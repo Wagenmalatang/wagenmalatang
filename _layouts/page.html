@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page-banner">
+<div class="page-banner{% if page.menu_page %} menu-banner{% endif %}">
   <div class="wrapper">
     {%- if page.eyebrow -%}<div class="page-eyebrow">{{ page.eyebrow }}</div>{%- endif -%}
     <h1 class="page-title">{{ page.title | escape }}</h1>
@@ -13,9 +13,12 @@ layout: default
   {%- if page.banner_mascot -%}
   <img src="{{ page.banner_mascot | relative_url }}" alt="" class="page-banner-mascot" aria-hidden="true">
   {%- endif -%}
+  {% if page.menu_page %}
+  <svg class="menu-banner-wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 12C200 12 250 60 480 60H960C1170 60 1250 12 1440 0V60H0Z"/></svg>
+  {% endif %}
 </div>
 
-<article class="post">
+<article class="post{% if page.menu_page %} menu-page{% endif %}">
   <div class="wrapper">
     <div class="post-content">
       {{ content }}

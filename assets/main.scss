@@ -678,6 +678,118 @@ h2.section-title[style] {
 }
 
 // ---------------------------------------------------------------------------
+// Menu artwork
+// ---------------------------------------------------------------------------
+
+.page-content.menu-content {
+  padding: 0;
+}
+
+.menu-brand {
+  font-family: $heading-font-family;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: $wm-washi;
+}
+
+.menu-site-header .page-link[aria-current="page"] {
+  color: $wm-washi !important;
+  border-bottom: 3px solid $wm-crimson;
+  padding-bottom: 8px;
+}
+
+.menu-banner {
+  padding: 52px 0 72px;
+}
+
+.menu-banner .page-title {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+}
+
+.menu-banner-wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  fill: $wm-washi;
+  pointer-events: none;
+}
+
+.menu-posters {
+  display: grid;
+  gap: 52px;
+  margin: 40px 0 48px;
+}
+
+.menu-poster {
+  min-width: 0;
+}
+
+.menu-poster .section-title {
+  margin-bottom: 24px;
+  font-size: clamp(1.7rem, 4vw, 2.25rem);
+}
+
+.menu-poster-image {
+  display: block;
+  cursor: zoom-in;
+}
+
+.menu-poster-image:focus-visible {
+  outline: 3px solid $wm-indigo-dark;
+  outline-offset: 6px;
+}
+
+.menu-poster-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.menu-poster-link {
+  margin: 12px 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.menu-poster-link a {
+  color: #5b3a29;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.menu-page .menu-callout {
+  margin-top: 0;
+}
+
+.menu-callout .btn {
+  border-radius: 999px;
+  color: #352314 !important;
+  box-shadow: none;
+}
+
+.menu-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-brand { font-size: 1.15rem; }
+  .menu-banner { padding: 36px 0 56px; }
+  .menu-banner-wave { height: 28px; }
+  .menu-posters { gap: 36px; margin-top: 28px; }
+  .menu-page .menu-callout { padding: 36px 20px; }
+}
+
+// ---------------------------------------------------------------------------
 // Soup base cards
 // ---------------------------------------------------------------------------
 
