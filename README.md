@@ -13,6 +13,14 @@ GitHub Pages.
 
 ## Local Development
 
+Use Ruby 3.3. The GitHub Pages dependencies are not compatible with Ruby 4.
+On macOS with Homebrew:
+
+```sh
+brew install ruby@3.3
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+```
+
 ```sh
 bundle install
 bundle exec jekyll serve
