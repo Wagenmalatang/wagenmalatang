@@ -35,8 +35,8 @@ subtitle: お近くのWaGenマーラータン店舗をお探しください。
   <div class="store-grid store-grid-single">
     <div class="store-card">
       <h3>🇯🇵 大阪 — WAGEN和元麻辣湯 十三店</h3>
+      <p class="store-meta"><strong class="label">内装工事中・開店準備中 — Coming Soon</strong><br>現在はまだ営業しておりません。</p>
       <p class="store-meta"><span class="label">住所:</span> 大阪市淀川区十三元今里二丁目8-4</p>
-      <p class="store-meta"><span class="label">営業時間:</span> 毎日 11:30 – 20:30</p>
       <p class="store-meta"><a href="https://www.google.com/maps?q=大阪市淀川区十三元今里二丁目8-4" target="_blank" rel="noopener noreferrer">Google マップで見る</a></p>
     </div>
   </div>
@@ -59,6 +59,7 @@ subtitle: お近くのWaGenマーラータン店舗をお探しください。
   <div class="store-grid store-grid-single">
     <div class="store-card">
       <h3>🇯🇵 豊中 — WAGEN和元麻辣湯 庄内店</h3>
+      <p class="store-meta"><strong class="label">内装工事中・開店準備中 — Coming Soon</strong><br>現在はまだ営業しておりません。</p>
       <p class="store-meta"><span class="label">住所:</span> 大阪府豊中市庄内東町4-2-28</p>
       <p class="store-meta"><a href="https://www.google.com/maps?q=大阪府豊中市庄内東町4-2-28" target="_blank" rel="noopener noreferrer">Google マップで見る</a></p>
     </div>
